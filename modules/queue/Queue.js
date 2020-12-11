@@ -45,27 +45,28 @@ class Queue {
   }
 
   all() {
-    // Return all items in the queue.
-      let node = this.first;
-    while (node !== null) {
-      console.log(node.value)
-      node = node.next;
+    let newArray = [];
+    let currentNode = this.first;
+
+    while (currentNode) {
+      newArray.push(currentNode.value);
+      currentNode = currentNode.next;
     }
+    return newArray;
   }
-    //   let newArray = [];
-    //   let currentNode = queue.first;
+}
 
-    //   while (currentNode) {
-    //     newArray.push(currentNode.value);
-    //     currentNode = currentNode.next;
-    //   }
-    //   return newArray;
-    // }
+// Return all items in the queue.
+//     let node = this.first;
+//     while (node !== null) {
+//       console.log(node.value);
+//       node = node.next;
+//     }
+//   }
+// }
+//or
 
-
-  
 
 module.exports = Queue;
 
 
-// class 
