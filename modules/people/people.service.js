@@ -21,6 +21,7 @@ module.exports = {
     return people.enqueue(person);
   },
 
-  dequeue() {
+  dequeue(person) {
+    return people.dequeue(person);
   }
 };
