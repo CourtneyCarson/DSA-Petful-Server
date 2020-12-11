@@ -26,11 +26,12 @@ module.exports = {
 
   dequeue(type) {
     // Remove a pet from the queue.
+    console.log(pets.cats.all());
     if (type === 'cat') {
-      return pets.cats.dequeue()
+      return pets.cats.dequeue();
     }
     if (type === 'dog') {
-      return pets.dogs.dequeue()
+      return pets.dogs.dequeue();
     }
   }
 };
