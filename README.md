@@ -1,7 +1,7 @@
 # Petful
 + Link to[Live](https://dsa-petful-client.courtneycarson.vercel.app/)
-+ Link to Server: (https://github.com/CourtneyCarson/DSA-Petful-Server.git)
-+ Link to Client: (https://github.com/CourtneyCarson/DSA-Petful-Client.git)
++ Link to Server: [Petful Server Github](https://github.com/CourtneyCarson/DSA-Petful-Server.git)
++ Link to Client: [Petful Client Github](https://github.com/CourtneyCarson/DSA-Petful-Client.git)
 
 
 ## Summary
